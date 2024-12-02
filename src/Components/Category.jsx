@@ -1,7 +1,12 @@
-import React from "react";
+import Navbar from "./Navbar";
 
 const Category = () => {
-  return <div>Category</div>;
+  return (
+    <>
+      <Navbar />
+      Category
+    </>
+  );
 };
 
 export default Category;

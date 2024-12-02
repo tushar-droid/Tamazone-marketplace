@@ -1,9 +1,8 @@
-import React from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 const Products = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Link to=":product1">
         <button>Product 1</button>
@@ -17,7 +16,7 @@ const Products = () => {
       <Link to=":product143242432">
         <button>Product 1543534</button>
       </Link>
-    </div>
+    </>
   );
 };
 
